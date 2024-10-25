@@ -1,0 +1,30 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.textButton li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lucida Console', monospace;
+    padding: 10px;
+}
+
+.textGeneral {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}

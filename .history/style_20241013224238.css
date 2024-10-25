@@ -1,0 +1,119 @@
+nav {
+    background-color: #318b9b;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #257ab7;
+}
+
+.textButton li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lucida Console', monospace;
+    padding: 10px;
+}
+
+.textGeneral {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Georgia', serif;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.widget {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.widget1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 30px;
+}
+.widget div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.space {
+    display: flex;
+    margin: 100px;
+}
+
+.space1 {
+    display: flex;
+    margin: 40px;
+}
+
+.icon {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2Text {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-image: url("beach.jpg");
+    background-size: cover;
+}
+
+.image2Text {
+
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.imageContainer :hover .imageOverlay{
+    opacity: 0.7;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+

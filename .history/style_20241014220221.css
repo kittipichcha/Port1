@@ -1,0 +1,166 @@
+nav {
+    background-color: #318b9b;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #257ab7;
+}
+
+.textButton li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lucida Console', monospace;
+    padding: 10px;
+}
+
+.textGeneral {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Courier New', monospace;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.textTopic {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lucida Console', monospace;
+    margin: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.widget {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.widget div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.widget div img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.widget1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 30px;
+}
+
+
+
+.space {
+    display: flex;
+    margin: 100px;
+}
+
+.space1 {
+    display: flex;
+    margin: 40px;
+}
+
+.icon {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2Text {
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-image: url("beach.jpg");
+    background-size: cover;
+}
+
+.galleryContainer {
+    justify-content: center;
+}
+
+.galleryContainer img {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    margin: 10px;
+}
+
+.scrollImage {
+    background-color: #e0dddd;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.scrollImage div img {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    height: auto;
+    width: 20%;
+    margin: 20px;
+}
+
+.topicAndPara {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.topicAndPara:nth-child(n) {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Courier New', monospace;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    background-image: url("beach.jpg");
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    margin: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+

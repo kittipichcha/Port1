@@ -1,0 +1,47 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #257ab7;
+}
+
+.textButton li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lucida Console', monospace;
+    padding: 10px;
+}
+
+.textGeneral {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    display: flex;
+    justify-content:left;
+}
+
+.widget {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space {
+    display: flex;
+    margin-top: 100px;
+}
+
+.widget div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
